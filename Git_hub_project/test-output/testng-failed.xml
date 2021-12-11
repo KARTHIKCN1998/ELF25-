@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcasetest.Register_dws">
+        <methods>
+          <include name="Tc01_Reg"/>
+          <include name="Browser_teardown"/>
+          <include name="Browser_setup1S"/>
+        </methods>
+      </class> <!-- testcasetest.Register_dws -->
+      <class name="testcasetest.Select_implimentating">
+        <methods>
+          <include name="Browser_teardown"/>
+          <include name="Browser_setup1S"/>
+          <include name="Select_imp"/>
+        </methods>
+      </class> <!-- testcasetest.Select_implimentating -->
+      <class name="testcasetest.Login_addtocartTestcase_DWS">
+        <methods>
+          <include name="Tc02_login"/>
+          <include name="Browser_teardown"/>
+          <include name="Browser_setup1S"/>
+        </methods>
+      </class> <!-- testcasetest.Login_addtocartTestcase_DWS -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
